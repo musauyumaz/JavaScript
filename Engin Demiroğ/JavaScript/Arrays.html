@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+</head>
+
+<body>
+    <p id="demo"></p>
+
+    <script>
+        //var students = new Array("Musa UYUMAZ", "Serhat UYUMAZ", "Engin DEMİROĞ");
+        var students = ["Musa UYUMAZ", "Serhat UYUMAZ", "Engin DEMİROĞ"];
+        //document.getElementById("demo").innerHTML = students;
+        students[1] = "Osman UYUMAZ"
+        students[2]  =25;
+        students.push("Serdar Işık");
+        students[4]  ="Sadık TURAN";
+        students[students.length-1] = "Ali MISIR";
+        //document.getElementById("demo").innerHTML = students[2];
+        document.getElementById("demo").innerHTML = students;
+    </script>
+</body>
+
+</html>
